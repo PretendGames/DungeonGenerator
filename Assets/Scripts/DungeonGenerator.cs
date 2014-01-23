@@ -11,7 +11,7 @@ public class DungeonGenerator : MonoSingleton <DungeonGenerator> {
 	public int MAP_HEIGHT = 128;
 	
 	// Room Parameters
-	public int ROOM_MAX_SIZE = 24;
+	public int ROOM_MAX_SIZE = 38;
 	public int ROOM_MIN_SIZE = 4;
 	public int ROOM_WALL_BORDER = 1;
 	public bool ROOM_UGLY_ENABLED = true;
