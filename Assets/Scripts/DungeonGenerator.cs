@@ -210,7 +210,7 @@ public class DungeonGenerator : MonoSingleton <DungeonGenerator> {
 
 		}
 		exitLadder.SetActive(true);
-		exitLadder.transform.position = new Vector3(maxRoom.boundary.center.x,1.0f,maxRoom.boundary.center.y);
+		exitLadder.transform.position = new Vector3(maxRoom.boundary.center.x,1.5f,maxRoom.boundary.center.y);
 		
 	}
 	
